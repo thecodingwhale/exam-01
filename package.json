@@ -1,0 +1,66 @@
+{
+  "name": "baseapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/react-common": "^3.1.4",
+    "@apollo/react-components": "^3.1.5",
+    "@apollo/react-hoc": "^3.1.5",
+    "@apollo/react-hooks": "^3.1.5",
+    "@nostack/no-stack": "^2.0.0-alpha.14",
+    "@shopify/react-compose": "^1.0.13",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-fetch": "^0.7.0",
+    "apollo-link": "^1.2.14",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.19.2",
+    "formik": "^2.1.4",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3",
+    "jsonwebtoken": "^8.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-graph-vis": "^1.0.5",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
+    "react-spinkit": "^3.0.0",
+    "styled-components": "^5.1.0",
+    "uuid": "^8.0.0",
+    "yup": "^0.28.5"
+  },
+  "scripts": {
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
+    "start": "npm run watch:css & react-scripts start",
+    "build": "npm run build:css react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.2",
+    "babel-plugin-macros": "^2.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6",
+    "twin.macro": "^1.4.1"
+  }
+}
